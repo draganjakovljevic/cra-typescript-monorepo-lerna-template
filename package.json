@@ -1,0 +1,30 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna run start",
+    "build": "lerna run build",
+    "test": "lerna run test --stream"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.19",
+    "@types/node": "^14.14.16",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "commitizen": "^4.2.3",
+    "global": "^4.4.0",
+    "lerna": "^3.22.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
