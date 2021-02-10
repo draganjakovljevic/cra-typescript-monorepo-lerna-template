@@ -24,6 +24,6 @@ legend:
 📂 directory
 📄 file
 ```
-### Know more
+### Know more?
 
 Check the [blog post that explains the details](https://blog.codecentric.de/en/2021/02/automating-package-publishing-in-javascript-projects).
